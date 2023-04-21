@@ -19,10 +19,18 @@
 
 /* Colors */
 :root {
+  --color-default: #321266;
+  --color-primary: #CC71A4;
+  --color-secondary: #F8C68B;
+}
+
+/* Original code
+:root {
   --color-default: #222222;
   --color-primary: #008374;
   --color-secondary: #f85a40;
 }
+*/
 
 /* Smooth scroll behavior */
 :root {
