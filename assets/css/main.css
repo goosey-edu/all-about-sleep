@@ -1884,7 +1884,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient(--color-primary, --color-secondary);
+  background: linear-gradient(var(--color-primary), var(--color-secondary));
   padding: 60px 0 0 0;
 }
 
