@@ -22,6 +22,13 @@
   --color-default: #321266;
   --color-primary: #CC71A4;
   --color-secondary: #F8C68B;
+  
+  --color-darkpurple: #0D031D;
+  --color-purple: #321266;
+  --color-pink: #CC71A4;
+  --color-yellow: #F8C68B;
+  --color-lightblue: #C7E1FF;
+  --color-lightorange: #FDBB7D;
 }
 
 /* Original code
@@ -618,8 +625,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us Section
+# About Us Section - use for Stages of Sleep
 --------------------------------------------------------------*/
+.about {
+  background: linear-gradient(var(--color-purple), var(--color-pink));
+}
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
@@ -1884,7 +1895,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient(var(--color-primary), var(--color-secondary));
+  background: linear-gradient(var(--color-darkpurple), var(--color-purple));
   padding: 60px 0 0 0;
 }
 
