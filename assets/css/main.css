@@ -65,8 +65,14 @@ section {
 }
 
 .sections-bg {
+  background-color: linear-gradient(#e66465, #9198e5);
+}
+
+/* Original code
+.sections-bg {
   background-color: #f6f6f6;
 }
+*/
 
 .section-header {
   text-align: center;
