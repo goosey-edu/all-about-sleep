@@ -1884,9 +1884,18 @@ section {
 .hero {
   width: 100%;
   position: relative;
+  background: linear-gradient(--color-primary, --color-secondary);
+  padding: 60px 0 0 0;
+}
+
+/* Original Code
+.hero {
+  width: 100%;
+  position: relative;
   background: var(--color-primary);
   padding: 60px 0 0 0;
 }
+*/
 
 @media (min-width: 1365px) {
   .hero {
