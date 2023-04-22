@@ -628,7 +628,7 @@ section {
 # About Us Section - use for Stages of Sleep
 --------------------------------------------------------------*/
 .about {
-  background: linear-gradient(var(--color-purple), var(--color-pink));
+  background: linear-gradient(var(--color-darkpurple), var(--color-purple) 50%, var(--color-pink));
 }
 
 .about h3 {
@@ -1895,7 +1895,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient(var(--color-darkpurple), var(--color-purple));
+  background: var(--color-darkpurple);
   padding: 60px 0 0 0;
 }
 
