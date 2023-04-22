@@ -1979,6 +1979,7 @@ section {
 
 .hero .icon-boxes {
   padding-bottom: 60px;
+  background-color: var(--color-purple);
 }
 
 @media (min-width: 1200px) {
@@ -1997,7 +1998,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: var(--color-yellow);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
