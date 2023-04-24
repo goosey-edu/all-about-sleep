@@ -326,17 +326,32 @@
         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a class="cta-btn" href="#">Call To Action</a> -->
       </div>
-    
-
-    
+   
     </section><!-- End Call To Action Section-->
+   
+    <!-- Sankey Viz -->
+    <div id="observablehq-d58c5ac4"></div>
+    <p>Credit: <a href="https://observablehq.com/d/6d874052303db815@355">Untitled by I247_2023</a></p>
 
-    <iframe width="100%" height="500" frameborder="0"
-      src="https://observablehq.com/embed/6d874052303db815@355?cell=*">
-      
-    <iframe width="100%" height="105" frameborder="0"
-      src="https://observablehq.com/embed/30268f7e9d4dd20a@68?cells=RadarChart"></iframe>
-    </iframe>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/6d874052303db815@355.js?v=3";
+    new Runtime().module(define, Inspector.into("#observablehq-d58c5ac4"));
+    </script>
+     
+    <!-- Radar Chart viz --> 
+    <div id="observablehq-RadarChart-c3c12116"></div>
+    <p>Credit: <a href="https://observablehq.com/d/30268f7e9d4dd20a@68">Radar Chart by I247_2023</a></p>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/30268f7e9d4dd20a@68.js?v=3";
+    new Runtime().module(define, name => {
+      if (name === "RadarChart") return new Inspector(document.querySelector("#observablehq-RadarChart-c3c12116"));
+    });
+    </script>
     <!-- ======= Our Services Section ======= 
     <section id="services" class="services sections-bg">
       <div class="container" data-aos="fade-up">
