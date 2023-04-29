@@ -50,6 +50,8 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  background-color: linear-gradient(var(--color-yellow), var(--color-pink) 50%, var(--color-purple));
+  
 }
 
 a {
@@ -78,10 +80,11 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-
+/*
 .sections-bg {
   background-color: linear-gradient(#e66465, #9198e5);
 }
+*/
 
 /* Original code
 .sections-bg {
@@ -628,7 +631,7 @@ section {
 # About Us Section - use for Stages of Sleep
 --------------------------------------------------------------*/
 .about {
-  background: linear-gradient(var(--color-darkpurple), var(--color-purple) 50%, var(--color-pink));
+  background: linear-gradient(var(--color-darkpurple), var(--color-purple) 30%, var(--color-pink) 70%);
 }
 
 .about h3 {
@@ -2044,7 +2047,7 @@ section {
 .one-night {
   width: 100%;
   position: relative;
-  background: linear-gradient(var(--color-pink), var(--color-yellow));
+  background: linear-gradient(var(--color-pink), var(--color-pink) 30%, var(--color-yellow));
   padding: 60px 0 0 0;
 }
 
