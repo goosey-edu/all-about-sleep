@@ -2039,6 +2039,36 @@ section {
 }
 
 /*--------------------------------------------------------------
+# One-Night Section
+--------------------------------------------------------------*/
+.one-night {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(var(--color-pink), var(--color-yellow));
+  padding: 60px 0 0 0;
+}
+
+
+@media (min-width: 1365px) {
+  .one-night {
+    background-attachment: fixed;
+  }
+}
+
+.one-night h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.one-night p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
 .blog .blog-pagination {
