@@ -2046,8 +2046,10 @@ section {
 --------------------------------------------------------------*/
 .one-night {
   width: 100%;
+  /*
   position: relative;
-  background: linear-gradient(var(--color-pink), var(--color-pink) 30%, var(--color-yellow));
+  */
+  background: linear-gradient(var(--color-pink), var(--color-yellow));
   padding: 60px 0 0 0;
 }
 
