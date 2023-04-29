@@ -2046,19 +2046,18 @@ section {
 --------------------------------------------------------------*/
 .one-night {
   width: 100%;
-  /*
-  position: relative;
-  */
+  position: static;
   background: linear-gradient(var(--color-pink), var(--color-yellow));
   padding: 60px 0 0 0;
 }
 
-
+/*
 @media (min-width: 1365px) {
   .one-night {
     background-attachment: fixed;
   }
 }
+*/
 
 .one-night h2 {
   font-size: 48px;
