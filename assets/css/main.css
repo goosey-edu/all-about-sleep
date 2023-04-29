@@ -842,7 +842,7 @@ section {
 --------------------------------------------------------------*/
 .factors .container {
   background: linear-gradient(var(--color-pink), var(--color-yellow));
-  background-size: cover;
+  /*background-size: cover;*/
   padding: 100px 60px;
   border-radius: 15px;
   overflow: hidden;
