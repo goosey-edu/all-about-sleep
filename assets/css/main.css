@@ -21,15 +21,27 @@
 :root {
   --color-default: #FFFFFF;
   --color-primary: #0D031D;
-  --color-secondary: #F8C68B;
+  --color-secondary: #BE735E;
   
-  --color-darkpurple: #0D031D;
+  --color-nighttime-darkpurple: #0D031D;
+  --color-sunrise-purple: #3C1742;
+  --color-sunrise-darkmauve: #7C3B38;
+  --color-sunrise-orange: #BE735E;
+  --color-daytime-blue: #DEEAEF;
+  --color-sunset-gold: #D9905C;
+  --color-sunset-orange: #BD775A;
+  --color-sunset-mauve: #864E5A;
+
+}
+
+/* Old Colors 
   --color-purple: #321266;
   --color-pink: #CC71A4;
   --color-yellow: #F8C68B;
-  --color-lightblue: #C7E1FF;
   --color-lightorange: #FDBB7D;
-}
+
+*/
+
 
 /* Original code
 :root {
@@ -631,7 +643,7 @@ section {
 # About Us Section - use for Stages of Sleep
 --------------------------------------------------------------*/
 .about {
-  background: linear-gradient(var(--color-darkpurple), var(--color-purple) 30%, var(--color-pink) 70%);
+  background: linear-gradient(var(--color-nighttime-darkpurple), var(--color-sunrise-purple) 50%, var(--color-sunrise-darkmauve) 70%, var(--color-sunrise-orange) 90%, var(--color-daytime-blue));
 }
 
 .about h3 {
@@ -840,10 +852,14 @@ section {
 /*--------------------------------------------------------------
 # Factors Section
 --------------------------------------------------------------*/
+.factors {
+  background: var(--color-daytime-blue); 
+}
+
 .factors .container {
-  background: linear-gradient(var(--color-pink), var(--color-yellow));
+  /*background: linear-gradient(var(--color-pink), var(--color-yellow));*/
   /*background-size: cover;*/
-  padding: 100px 60px;
+  padding: 100px 100px;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -1193,7 +1209,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-darkpurple);
+  background: var(--color-nighttime-darkpurple);
   padding: 60px 0 0 0;
 }
 
@@ -1277,7 +1293,7 @@ section {
 
 .hero .icon-boxes {
   padding-bottom: 60px;
-  background-color: var(--color-purple);
+  /*background-color: var(--color-purple);*/
 }
 
 @media (min-width: 1200px) {
@@ -1296,7 +1312,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: var(--color-yellow);
+  background: var(--color-secondary);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1342,7 +1358,6 @@ section {
 .effects {
   width: 100%;
   position: static;
-  background: linear-gradient(var(--color-yellow), var(--color-pink) 50%, var(--color-darkpurple));
   padding: 60px 0 0 0;
 }
 
