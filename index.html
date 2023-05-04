@@ -275,10 +275,23 @@
       </div>
     <!-- Sankey Viz -->
     <div class="container">
-      <div id="observablehq-d58c5ac4"></div>
-      <script src='assets/js/sankeychart.js'></script>
-      <p>Credit: <a href="https://observablehq.com/d/6d874052303db815@355">Untitled by I247_2023</a></p>
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css"> -->
+      <div id="observablehq-viewof-edgeColor-79b3c859"></div>
+      <div id="observablehq-viewof-highlightedInput-79b3c859"></div>
+      <div id="observablehq-viewof-highlightedOutput-79b3c859"></div>
+      <div id="observablehq-chart-79b3c859"></div>
+      <p>Credit: <a href="https://observablehq.com/d/31125b0757f5ce28@355">Untitled by I247_2023</a></p>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+      <script type="module">
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+      import define from "https://api.observablehq.com/d/31125b0757f5ce28@355.js?v=3";
+      new Runtime().module(define, name => {
+        if (name === "viewof edgeColor") return new Inspector(document.querySelector("#observablehq-viewof-edgeColor-79b3c859"));
+        if (name === "viewof highlightedInput") return new Inspector(document.querySelector("#observablehq-viewof-highlightedInput-79b3c859"));
+        if (name === "viewof highlightedOutput") return new Inspector(document.querySelector("#observablehq-viewof-highlightedOutput-79b3c859"));
+        if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-79b3c859"));
+      });
+      </script>
 
     </div>
 
