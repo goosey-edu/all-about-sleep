@@ -117,6 +117,7 @@ section {
   position: relative;
 }
 
+/*
 .section-header h2:after {
   content: "";
   position: absolute;
@@ -128,7 +129,7 @@ section {
   right: 0;
   bottom: 0;
   margin: auto;
-}
+}*/
 
 .section-header p {
   margin-bottom: 0;
