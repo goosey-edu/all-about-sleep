@@ -856,7 +856,7 @@ section {
 # Factors Section
 --------------------------------------------------------------*/
 .factors {
-  background: var(--color-daytime-blue); 
+  background: lineargradient(var(--color-daytime-blue), var(--color-default) 15%, var(--color-daytime-blue) 85%); 
 }
 
 .factors .icon-row {
@@ -1292,6 +1292,7 @@ section {
 
 .hero p {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 30px;
 }
