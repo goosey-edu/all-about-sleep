@@ -140,6 +140,7 @@ section {
 .dark-section-header {
   text-align: center;
   padding-bottom: 60px;
+  color: var(--color-primary);
 }
 
 .dark-section-header h2 {
@@ -148,11 +149,12 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: var(--color-primary);
 }
 
 .dark-section-header p {
   margin-bottom: 0;
-  color: #6f6f6f;
+  color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
