@@ -137,18 +137,13 @@ section {
   color: #6f6f6f;
 }
 
-dark-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-.dark-section-header {
+.section-header-dark {
   text-align: center;
   padding-bottom: 60px;
   color: var(--color-primary);
 }
 
-.dark-section-header h2 {
+.section-header-dark h2 {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -157,7 +152,7 @@ dark-section {
   color: var(--color-primary);
 }
 
-.dark-section-header p {
+.section-header-dark p {
   margin-bottom: 0;
   color: var(--color-primary);
 }
