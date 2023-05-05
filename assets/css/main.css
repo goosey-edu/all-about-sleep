@@ -644,7 +644,7 @@ section {
 # Stages of Sleep Section 
 --------------------------------------------------------------*/
 .stages {
-  background: linear-gradient(var(--color-nighttime-darkpurple), var(--color-sunrise-purple) 50%, var(--color-sunrise-darkmauve) 70%, var(--color-sunrise-orange) 90%, var(--color-daytime-blue));
+  background: linear-gradient(var(--color-nighttime-darkpurple), var(--color-sunrise-purple) 70%, var(--color-sunrise-darkmauve) 80%, var(--color-sunrise-orange) 90%, var(--color-daytime-blue));
 }
 
 .stages h3 {
