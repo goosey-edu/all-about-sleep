@@ -137,6 +137,10 @@ section {
   color: #6f6f6f;
 }
 
+dark-section {
+  padding: 60px 0;
+  overflow: hidden;
+}
 
 .dark-section-header {
   text-align: center;
