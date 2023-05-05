@@ -878,7 +878,7 @@ section {
 # Factors Section
 --------------------------------------------------------------*/
 .factors {
-  background: linear-gradient(var(--color-daytime-blue), var(--color-white) 15%, var(--color-white) 85%, var(--color-daytime-blue)); 
+  background: linear-gradient(var(--color-daytime-blue), var(--color-white) 15%); 
 }
 
 .factors .icon-row {
@@ -1434,7 +1434,7 @@ section {
 # Effects Section
 --------------------------------------------------------------*/
 .effects {
-  background: linear-gradient(var(--color-daytime-blue), var(--color-sunset-gold) 20%, var(--color-sunset-orange) 40%, var(--color-sunset-mauve) 60%, var(--color-nighttime-darkpurple));
+  background: linear-gradient(, var(--color-white), var(--color-daytime-blue) 10%, var(--color-sunset-gold) 20%, var(--color-sunset-orange) 40%, var(--color-sunset-mauve) 60%, var(--color-nighttime-darkpurple));
   width: 100%;
   position: static;
   padding: 60px 0 0 0;
