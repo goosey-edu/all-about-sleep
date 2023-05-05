@@ -878,7 +878,7 @@ section {
 # Factors Section
 --------------------------------------------------------------*/
 .factors {
-  background: linear-gradient(var(--color-daytime-blue), var(--color-white) 15%, var(--color-daytime-blue) 85%); 
+  background: linear-gradient(var(--color-daytime-blue), var(--color-white) 15%, var(--color-white) 85%, var(--color-daytime-blue)); 
 }
 
 .factors .icon-row {
