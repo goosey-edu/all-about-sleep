@@ -31,6 +31,7 @@
   --color-sunset-gold: #D9905C;
   --color-sunset-orange: #BD775A;
   --color-sunset-mauve: #864E5A;
+  --color-white: #FFFFFF;
 
 }
 
@@ -877,7 +878,7 @@ section {
 # Factors Section
 --------------------------------------------------------------*/
 .factors {
-  background: lineargradient(var(--color-daytime-blue), var(--color-default) 15%, var(--color-daytime-blue) 85%); 
+  background: linear-gradient(var(--color-daytime-blue), var(--color-white) 15%, var(--color-daytime-blue) 85%); 
 }
 
 .factors .icon-row {
