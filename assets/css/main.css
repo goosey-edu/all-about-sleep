@@ -136,6 +136,25 @@ section {
   color: #6f6f6f;
 }
 
+
+.dark-section-header {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.dark-section-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.dark-section-header p {
+  margin-bottom: 0;
+  color: #6f6f6f;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
