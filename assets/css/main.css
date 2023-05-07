@@ -111,7 +111,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -144,7 +144,7 @@ section {
 }
 
 .section-header-dark h2 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -670,7 +670,7 @@ section {
 
 .stages h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 48px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
@@ -678,7 +678,7 @@ section {
 
 .stages h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 36px;
   font-family: var(--font-secondary);
 }
 
