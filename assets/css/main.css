@@ -668,13 +668,26 @@ section {
   background: linear-gradient(var(--color-nighttime-darkpurple), var(--color-sunrise-purple) 70%, var(--color-sunrise-darkmauve) 80%, var(--color-sunrise-orange) 90%, var(--color-daytime-blue));
 }
 
-.stages h3 {
+.stages h2 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 36px;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
 }
 
+.stages h3 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: var(--font-secondary);
+}
+
+.stages h4 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 20px;
+  font-family: var(--font-secondary);
+}
 
 .stages .content ul {
   list-style: none;
@@ -683,6 +696,7 @@ section {
 
 .stages .content ul li {
   padding: 0 0 10px 30px;
+  font-size: 20px;
   position: relative;
 }
 
