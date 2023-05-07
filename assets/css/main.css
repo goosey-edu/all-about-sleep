@@ -667,6 +667,10 @@ section {
 .stages {
   background: linear-gradient(var(--color-nighttime-darkpurple), var(--color-sunrise-purple) 70%, var(--color-sunrise-darkmauve) 80%, var(--color-sunrise-orange) 90%, var(--color-daytime-blue));
 }
+.stages div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .stages h2 {
   font-weight: 700;
